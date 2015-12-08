@@ -1,0 +1,6 @@
+{
+	"name": "{{camelCase name}}",
+	"description": "{{description}}",
+	"dependencies": {},
+	"devDependencies": {},
+}

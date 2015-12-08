@@ -1,0 +1,13 @@
+{
+  "name": "plop-angular",
+  "description": "angular component generator with plop",
+  
+  "dependencies": {},
+  "devDependencies": {
+    "plop": "1.1.0"
+  },
+  
+  "scripts": {
+    "plop": "plop"
+  }
+}
