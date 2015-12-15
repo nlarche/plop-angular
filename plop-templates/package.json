@@ -1,6 +1,19 @@
 {
-	"name": "{{camelCase name}}",
-	"description": "{{description}}",
+	"name": "test",
+	"version": "0.0.1",
+	"description": "something",
 	"dependencies": {},
-	"devDependencies": {},
+	"devDependencies": {
+		"angular": "1.4.8",
+		"raw-loader": "0.5.1",
+		"css-loader": "0.23.0",
+		"style-loader": "0.13.0",
+		"webpack": "1.12.8",
+		"webpack-dev-server": "1.12.1"
+	},
+	"scripts": {
+		"server": "node node_modules/.bin/webpack-dev-server --inline --colors --display-error-details --display-cached --port 3000",
+		"start": "npm run server",
+		"build": "NODE_ENV=production webpack -p"		
+	}
 }
