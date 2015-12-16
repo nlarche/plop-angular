@@ -16,7 +16,7 @@ describe('{{dashCase name}}', function () {
 
 	describe('title', function () {
 		it('should be rendered', function () {			
-			expect(element.find('h1')[0].innerHTML).toBe('{{camelCase name}} is working !');
+			expect(element.find('h1')[0].innerHTML).toBe('{{sentenceCase name}} is working !');
 		});
     });
 
