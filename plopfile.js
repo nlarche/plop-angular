@@ -55,13 +55,13 @@ module.exports = (plop) => {
         actions.push({
           type: "add",
           path: "./{{dashCase name}}/package.json",
-          templateFile: "src/package.json"
+          templateFile: "./src/package.json"
         });
 
         actions.push({
           type: "add",
           path: "./{{dashCase name}}/webpack.config.js",
-          templateFile: "src/webpack.config.js"
+          templateFile: "./src/webpack.config.js"
         });
 
       }     
@@ -71,13 +71,13 @@ module.exports = (plop) => {
         actions.push({
           type: "add",
           path: "./{{dashCase name}}/demo/index.html",
-          templateFile: "src/demo/index.html"
+          templateFile: "./src/demo/index.html"
         });
         
           actions.push({
           type: "add",
           path: "./{{dashCase name}}/demo/demo.js",
-          templateFile: "src/demo/demo.js"
+          templateFile: "./src/demo/demo.js"
         });
       }
 

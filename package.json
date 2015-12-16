@@ -1,13 +1,14 @@
 {
   "name": "plop-angular",
   "description": "angular component generator with plop",
-  
   "dependencies": {},
   "devDependencies": {
-    "plop": "1.1.0"
+    "mocha": "2.3.4",  
+    "mockery": "1.4.0",
+    "plop": "1.1.0"  
   },
-  
   "scripts": {
-    "plop": "plop"
+    "plop": "plop",
+    "test": "mocha test/plop-angular.test.js"
   }
 }
