@@ -22,6 +22,11 @@ var composant = [
           path: "./{{dashCase name}}/{{dashCase name}}.css",
           templateFile: base + "component.css"
         },
+        {
+          type: "add",
+          path: "./{{dashCase name}}/karma.conf.js",
+          templateFile: base + "karma.conf.js"
+        },
       ];
   
 module.exports = composant;
